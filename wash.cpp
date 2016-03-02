@@ -2,6 +2,7 @@
 #include "SparkFunLSM9DS1/SparkFunLSM9DS1.h"
 #include "math.h"
 
+#define HELLO_WORLD 1
 #define LOOP_INTERVAL           3000
 #define EMAIL_INTERVAL          15000
 

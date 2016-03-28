@@ -206,7 +206,9 @@ void sendEvent()
 	hours = localtime(&epoch);
 
 	if ((hours->tm_hour < sleepHourStart) && (hours->tm_hour > sleepHourEnd))
+	{
 		printf("\t\tEVENT: Sent Email to %s\n", email);
 		notificationCounter++;
 		// system("mail -s \"Washing Machine Finished\" cs436project@gmail.com < empty.txt");
+	}
 }
